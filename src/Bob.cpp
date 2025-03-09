@@ -48,7 +48,7 @@ void Bob::compare_results(const std::vector<int>& alice_basis_sequence){
             }
         }
     }
-    std::cout << "Matching bits: " << matching_bits << " | " << measurement_basis.size() << std::endl;
+    std::cout << "Matching bits: " << matching_bits << " | " << measurement_basis.size() << std::endl << std::endl;
 }
 
 std::vector<int>& Bob::get_measured_bits(){
