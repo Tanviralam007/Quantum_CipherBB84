@@ -69,14 +69,14 @@ void Alice::print_encoded_qbits(){
     std::cout << std::endl;
 }
 
-std::vector<int> Alice::get_bit_sequence(){
+std::vector<int>& Alice::get_bit_sequence(){
     return bit_sequence;
 }
 
-std::vector<int> Alice::get_basis_sequence(){
+std::vector<int>& Alice::get_basis_sequence(){
     return basis_sequence;
 }
 
-std::vector<std::string> Alice::get_encoded_qbits(){
+std::vector<std::string>& Alice::get_encoded_qbits(){
     return encoded_qbits;
 }

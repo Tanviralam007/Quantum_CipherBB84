@@ -24,9 +24,9 @@ class Alice{
         void print_encoded_qbits();
 
         // getters
-        std::vector<int> get_bit_sequence();
-        std::vector<int> get_basis_sequence();
-        std::vector<std::string> get_encoded_qbits();
+        std::vector<int>& get_bit_sequence();
+        std::vector<int>& get_basis_sequence();
+        std::vector<std::string>& get_encoded_qbits();
 };
 
 #endif // ALICE_H
